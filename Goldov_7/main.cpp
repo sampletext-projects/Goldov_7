@@ -52,7 +52,6 @@ void remove_at(string* words, int index, int n)
 	{
 		words[i] = words[i + 1];
 	}
-	words[n - 1] = "";
 }
 
 void remove_even_length_words(string* words, int& n)
